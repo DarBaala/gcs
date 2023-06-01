@@ -12,14 +12,19 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 6px;
-  flex-wrap: wrap;
+}
+@media (max-width: 1405px) {
+  .block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .block:first-child {
   margin-top: 10px;
 }
 
 .item {
-  margin: 0 10px 0 10px;
+  margin: 0 6px 0 6px;
   position: relative;
   width: 290px;
   height: 205px;
