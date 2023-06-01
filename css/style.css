@@ -1,0 +1,255 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  margin: auto;
+  width: 95%;
+  overflow-x: auto;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 6px;
+}
+.block:first-child {
+  margin-top: 10px;
+}
+
+.item {
+  margin: 0 10px 0 10px;
+  position: relative;
+  width: 290px;
+  height: 205px;
+  border: 1px solid #7f7f7f;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+.rimgroup-logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 30px;
+}
+
+.gcs-group {
+  position: absolute;
+  left: 10px;
+  top: 43px;
+  width: 125px;
+}
+
+.gcs-group-title {
+  position: absolute;
+  left: 52px;
+  top: 13px;
+  width: 224px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 10px;
+  color: #1a486a;
+}
+.gcs-group-title > span {
+  color: #e2762a;
+}
+.gcs-group-description {
+  position: absolute;
+  left: 169px;
+  top: 82px;
+  width: 108px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #1a486a;
+}
+.rimportal-title {
+  position: absolute;
+  left: 54px;
+  top: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 10px;
+  color: #26753a;
+}
+
+.rimportal-title > span:first-child {
+  color: #e2762a;
+}
+
+.rimportal-title > span:last-child {
+  color: #1a486a;
+}
+.rimportal-logo {
+  position: absolute;
+  left: 77px;
+  top: 59px;
+}
+
+.rimmarket-logo {
+  position: absolute;
+  left: 69px;
+  top: 59px;
+}
+.rimmarket-title {
+  position: absolute;
+  left: 47px;
+  top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 10px;
+  color: #e2762a;
+}
+.rimmarket-title > span:first-child {
+  color: #60a2af;
+}
+
+.rimmarket-title > span:last-child {
+  color: #1a486a;
+}
+
+.tsp-s-title {
+  position: absolute;
+  left: 47px;
+  top: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 10px;
+  color: #e2762a;
+}
+.tsp-s-title > span:first-child {
+  color: #812f57;
+}
+
+.tsp-s-title > span:last-child {
+  color: #1a486a;
+}
+
+.tsp-s-logo {
+  position: absolute;
+  left: 69px;
+  top: 59px;
+}
+
+.rimbuilding-title {
+  position: absolute;
+  left: 47px;
+  top: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 10px;
+  color: #e2762a;
+}
+.rimbuilding-title > span:first-child {
+  color: #db9e19;
+}
+
+.rimbuilding-title > span:last-child {
+  color: #1a486a;
+}
+
+.rimbuilding-logo {
+  position: absolute;
+  left: 69px;
+  top: 59px;
+}
+
+.gcs-group-mini-logo {
+  width: 32px;
+  position: absolute;
+  left: 10px;
+  top: 44px;
+}
+
+.gcs-group-what-title {
+  position: absolute;
+  left: 50px;
+  top: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #d20303;
+}
+
+.gcs-group-what-title > span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1a486a;
+}
+
+.rimgroup-what-title {
+  position: relative;
+  left: 50px;
+  top: 80px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1a486a;
+}
+
+li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  color: #1a486a;
+  list-style: disc !important;
+}
+.rimgroup-what-ul {
+  position: absolute;
+  left: 25px;
+  top: 104px;
+}
+
+.whom {
+  position: absolute;
+  top: 82px;
+  left: 3px;
+  display: flex;
+}
+.whom > div:first-child {
+  margin-right: 25px;
+  background-color: #fde5e5;
+  border-radius: 11px;
+  padding: 5px 4px 2px 18px;
+}
+
+.whom-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  color: #1a486a;
+}
+
+.whom-ul > li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 7px;
+  color: #1a486a;
+}
