@@ -201,7 +201,7 @@ body {
 }
 
 .rimgroup-what-title {
-  position: relative;
+  position: absolute;
   left: 50px;
   top: 80px;
   font-style: normal;
